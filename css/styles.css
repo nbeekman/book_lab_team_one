@@ -1,47 +1,110 @@
+.shifty-item {
+  width: 210px;
+  margin: 10px;
+  float: left;
+  background: #AAA;
+  border: 5px solid white;
+}
+
+.shifty-item:hover { z-index: 10; }
+
+.shifty-item.h1 { height: 140px; background: #66F; }
+.shifty-item.h2 { height: 200px; background: #F66; }
+.shifty-item.h3 { height: 240px; background: #6F6; }
+.shifty-item.h4 { height: 280px; background: #FF6; }
+
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
 
 body{
-  	background-color: #ffffff;
-  	font-family: Arial, Helvetica, sans-serif;
-  	padding: 0;
-  	margin: 0;
-  	max-width:2000px;
-		margin: 0 auto;
-		padding:0;
-  }
-  /*georgia is secondary font*/
-	nav {
-  	width: 100%;
-		position: fixed;
-		height: 60px;
-		top: 10px;
-		background-color: #595959;
-		color: #ffffff;
-		margin: 0;
-		padding: 0;
-	}
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  nav li {
-    display: inline;
-  }
-  nav img {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -72px;
-  }
-  #navLeft {
-    float: left;
-  }
-  #navRight {
-    float: right;
-  }
+	background-color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	max-width: 2000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*georgia is secondary font*/
+
+
+nav {
+	width: 100%;
+	position: fixed;
+	height: 40px;
+	top: 28px;
+	background-color: #595959;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	padding-top: 20px;
+	box-shadow: 0px 0px 7px rgba(89, 89, 89, 0.5);
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover {
+  border-bottom: 1px dotted #ffffff;
+  padding-bottom: 3px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 40px;
+  padding-right: 40px;
+  border-right: 1px solid #898989;
+  text-transform: uppercase;
+}
+
+nav li:last-of-type {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+nav img {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  margin-left: -72px;
+  box-shadow: 0px 0px 7px rgba(89, 89, 89, 0.5);
+}
+
+#navLeft {
+  float: left;
+  margin-left: 15%;
+}
+
+#navRight {
+  float: left;
+  margin-left: 15%;
+}
+
+#login {
+  position: absolute;
+  top: -10px;
+  right: 11%;
+  background-color: #898989;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
 
 .item {
-  width: 220px;
-  margin: 10px;
+  width: 500px;
   float: left;
 }
 
