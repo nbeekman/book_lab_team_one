@@ -4,12 +4,6 @@ html {
 	width:100%;
 }
 
-body {
-	max-width:2000px;
-	margin: 0 auto;
-	padding:0;
-}
-
 .contain {
 	max-width:2000px;
 	margin: 0 auto;
@@ -24,7 +18,48 @@ body {
 }
 
 
+body{
+  	background-color: #ffffff;
+  	font-family: Arial, Helvetica, sans-serif;
+  	padding: 0;
+  	margin: 0;
+  	max-width:2000px;
+		margin: 0 auto;
+		padding:0;
+  }
+  /*georgia is secondary font*/
+	nav {
+  	width: 100%;
+		position: fixed;
+		height: 60px;
+		top: 10px;
+		background-color: #595959;
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+	}
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  nav li {
+    display: inline;
+  }
+  nav img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -72px;
+  }
+  #navLeft {
+    float: left;
+  }
+  #navRight {
+    float: right;
+  }
+
 @media screen and (min-width:300px) and (max-width:480px){}
 @media screen and (min-width:300px) and (max-width:480px){}
 @media screen and (min-width:300px) and (max-width:480px){}
 @media screen and (min-width:300px) and (max-width:480px){}
+
