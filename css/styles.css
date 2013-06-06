@@ -1,0 +1,30 @@
+html {
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+body {
+	max-width:2000px;
+	margin: 0 auto;
+	padding:0;
+}
+
+.contain {
+	max-width:2000px;
+	margin: 0 auto;
+	height:100%;
+}
+
+#content {
+	max-width:500px;
+	height:1000px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+
+@media screen and (min-width:300px) and (max-width:480px){}
+@media screen and (min-width:300px) and (max-width:480px){}
+@media screen and (min-width:300px) and (max-width:480px){}
+@media screen and (min-width:300px) and (max-width:480px){}
