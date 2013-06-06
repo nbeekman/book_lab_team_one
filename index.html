@@ -7,49 +7,23 @@
   <meta name="viewport" content="width=device-width" />
   <title>Ritz Carlton</title>
   
-  <style>
-  body{
-  	background-color: #ffffff;
-  	font-family: Arial, Helvetica, sans-serif;
-  }
-  /*georgia is secondary font*/
-	nav {
-		width: 100%;
-		position: fixed;
-		top: 0;
-		background-color: #595959;
-		color: #ffffff;
-		margin:0;
-		padding:0;
-	}
-	nav ul {
-		list-style: none;
-		height: 60px;
-	}
-	nav li {
-		position:fixed;
-		display: inline-block;
-		margin-right: 10%;
-		top: 10px;
-	}
-	nav img {
-		position: relative;
-		top: 5px;
-	}
-
-
-  </style>
-
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 <body>
 	<nav>
-		<ul>
+	  <ul id="navLeft">
 			<li>Item1</li>
 			<li>Item2</li>
-			<li><img src="img/logo.png" alt="ritz carlton"></li>
 			<li>Item3</li>
+	  </ul>
+	  
+	  <img src="img/logo.png" alt="ritz carlton">
+	  
+	  <ul id="navRight">
 			<li>Item4</li>
+			<li>Item5</li>
+			<li>Item6</li>
 		</ul>
 	</nav>
 
