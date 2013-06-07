@@ -316,7 +316,7 @@ nav img {
   margin:0 auto;
   width:850px;
   max-width:2000px;
-  top:150px;
+  top:135px;
   bottom:5%;
   padding:0;
   z-index: -1;
@@ -330,27 +330,80 @@ nav img {
   margin:10px;
 }
 
- @media (max-width: 880px) {
+ @media (max-width: 2000px) {
+   #nav_desktop{
+    display:block;
+   }
+
+   #nav_tablet,
+   #nav_mobile {
+    display:none;
+   }
+}
+
+@media (max-width: 880px) {
    #photo_details {
     width:565px;
    }
- }
+  #nav_tablet {
+    display:block;
+   }
+   #nav_desktop,
+   #nav_mobile {
+    display:none;
+   }
+}
+
   @media (max-width: 568px) {
    #photo_details {
-    width:280px;
-  }
- }
+      width:280px;
+    }
+   #nav_mobile {
+    display:block;
+   }
+   #nav_tablet,
+   #nav_desktop{
+    display:none;
+   }
+}
 
  /* Second Nav on Detail Page */
-#second_nav_bar {
+#nav_desktop {
   position:relative;
   margin: 0 auto;
   width:823px;
   top:120px;
   bottom:2%;
   z-index:-1;
+  padding:0;
 }
 
-#second_nav_bar img {
-  width:823px;
+#nav_desktop img {
+  width:700px;
 }
+
+#nav_tablet {
+  position:relative;
+  margin: 0 auto;
+  width:520px;
+  top:120px;
+  bottom:2%;
+  z-index:-1;
+  padding:0;
+}
+
+#nav_tablet img {
+  width:520px;
+}
+
+#nav_mobile {
+  position:relative;
+  margin: 0 auto;
+  width:260px;
+  top:120px;
+  bottom:2%;
+  z-index:-1;
+  padding:0;
+}
+
+
