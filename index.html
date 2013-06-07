@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-
 <head>
 	<meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -27,16 +24,37 @@
   			<li><a href="#">Our Story</a></li>
   		</ul>
   		
-  		<div id="login">
-  		  <a href="#">Rewards Login</a>
-  		</div>
+  		<a href="#"><div id="login">Rewards Login</div></a>
 	  </div>
 	</nav>
 	
 	<section id="booking">
 	  <ul>
-  		<li>BOOKING FORM WILL BE HERE!</li>
-  		<li>Booking</li>
+	    <li id="mobileReserve">Reserve A Room</li>
+  		<li id="bookingForm">
+    		<h2>When will you be staying with us?</h2>
+    		<input type="text" placeholder="Enter destination or hotel name" />
+    		<input type="text" placeholder="Arriving:" />
+    		<input type="text" placeholder="Leaving:" />
+    		<div id="rooms">
+      		<label for="roomSelect">Rooms:</label>
+      		<select id="roomSelect">
+        		<option>1</option>
+        		<option>2</option>
+        		<option>3</option>
+      		</select>
+    		</div>
+    		<div id="guests">
+      		<label for="guestSelect">Guests:</label>
+      		<select id="guestSelect">
+        		<option>1</option>
+        		<option>2</option>
+        		<option>3</option>
+      		</select>
+    		</div>
+    		<a href="#"><div id="search">Search</div></a>
+  		</li>
+  		<li id="nonMobileReserve">Reserve A Room</li>
   	</ul>
 	</section>
 
@@ -79,9 +97,8 @@
 		<img src="img/photo12.jpg" alt="12">
 	</section>
 
-
-	<footer class>
-	</footer>
+	<footer></footer>
+	
 	<script src="js/jquery-1.7.1.min.js"></script>
 	<script src="js/javascript.js"></script>
 </body>
