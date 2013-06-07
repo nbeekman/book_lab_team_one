@@ -424,6 +424,7 @@ nav img {
   	height: 30px;
   	padding-top: 10px;
   	margin-top: 40px;
+  	margin-left: -28px;
   	position: relative;
   	display: block;
   	left: auto;
@@ -445,6 +446,10 @@ nav img {
   	-o-transform: inherit;
   	transform-origin: inherit;
   	transform: inherit;
+  }
+  
+  #bookingForm h2 {
+    margin-left: -60px;
   }
   
   #bookingForm input {
