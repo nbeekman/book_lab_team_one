@@ -172,7 +172,7 @@ nav img {
 /* END BOOKING SLIDER */
 
 #photos {
-  margin-top: 180px;
+  margin-top: 88px;
    /* Prevent vertical gaps */
    line-height: 0;
    
@@ -365,6 +365,10 @@ nav img {
    #nav_desktop{
     display:none;
    }
+
+   #photo_details{
+      top:135px;
+   }
 }
 
  /* Second Nav on Detail Page */
@@ -405,5 +409,6 @@ nav img {
   z-index:-1;
   padding:0;
 }
+
 
 
