@@ -316,7 +316,7 @@ nav img {
   margin:0 auto;
   width:850px;
   max-width:2000px;
-  top:120px;
+  top:150px;
   bottom:5%;
   padding:0;
   z-index: -1;
@@ -340,3 +340,17 @@ nav img {
     width:280px;
   }
  }
+
+ /* Second Nav on Detail Page */
+#second_nav_bar {
+  position:relative;
+  margin: 0 auto;
+  width:823px;
+  top:120px;
+  bottom:2%;
+  z-index:-1;
+}
+
+#second_nav_bar img {
+  width:823px;
+}
