@@ -108,14 +108,7 @@ nav img {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 1200px) {
-  #photos {
-  -moz-column-count:    4;
-  -webkit-column-count: 4;
-  column-count:         4;
-  }
-}
-@media (max-width: 1000px) {
+@media (max-width: 2000px) {
   #photos {
   -moz-column-count:    3;
   -webkit-column-count: 3;
