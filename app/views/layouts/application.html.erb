@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= csrf_meta_tags %>
+  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
+  <title>Luxury Hotels &amp; Resorts | Escape to Luxurious Hotels by The Ritz-Carlton</title>
+</head>
+
+<body>
+	<nav>
+	  <div id="mobileNav">
+	  	<%= link_to (image_tag ("logo.png"), :id=>'mobileLogo') %>
+	    <span id="mobileDropDown">&#9776;</span>
+	    <span id="mobileRewards">Rewards Login</span>
+	  </div>
+
+	  <div id="navContainer">
+  	  <ul>
+  			<li><a href="#">Our Hotels</a></li>
+  			<li><a href="#">Reservations</a></li>
+  			<li class="noBorder noPaddingR"><a href="#">Offers</a></li>
+        <li class="noBorder noPaddingR"><a href="index.html"><%= link_to (image_tag ("logo.png")) %></a></li>
+  			<li><a href="#">Rewards</a></li>
+  			<li><a href="#">Residences &amp; Clubs</a></li>
+  			<li><a href="#">Our Story</a></li>
+  		</ul>
+  		
+  		<a href="#"><div id="login">Rewards Login</div></a>
+	  </div>
+	</nav>
+	
+
+	
+	<%= yield %>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+
+	</body>
+</html>
