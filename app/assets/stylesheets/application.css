@@ -273,6 +273,22 @@ nav img {
   display: none;
 }
 
+#booking.leftZero {
+  left: 0;
+}
+
+#booking.bottomZero {
+  bottom: 0;
+}
+
+#booking.left460 {
+  left: -460px;
+}
+
+#booking.bottom510 {
+  bottom: -510px;
+}
+
 /* END BOOKING SLIDER */
 
 #photos {
@@ -597,3 +613,4 @@ nav img {
   z-index:-1;
   padding:0;
 }
+
