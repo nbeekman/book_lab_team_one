@@ -15,21 +15,21 @@
 //= require_tree .
 //= require ./jquery-1.7.1.min
 
-var width = $(window).width();
-  
-if (width > 401) {
-    $("#booking li:last-child").mouseover(function(){
-      $("#booking").css("left", "0px");
-    });
-    $("#booking").mouseleave(function(){
-      $("#booking").css("left", "-460px");
-    });
-} else {
-    $("#booking li:first-child").mouseover(function(){
-      $("#booking").css("bottom", "0px");
-    });
-    $("#booking").mouseleave(function(){
-      $("#booking").css("bottom", "-510px");
-    });
-}
+ 
+$("#nonMobileReserve").mouseover(function(){
+  $("#booking").removeClass().addClass("leftZero");
+});
 
+$("#mobileReserve").mouseover(function(){
+  $("#booking").removeClass().addClass("bottomZero");
+});
+
+$("#booking").mouseleave(function(){
+  if (width > 401) {
+    var width = $(window).width();
+    $("#booking").removeClass().addClass("left460");
+  } else {
+    var width = $(window).width();
+    $("#booking").removeClass().addClass("bottom510");
+  }
+});
